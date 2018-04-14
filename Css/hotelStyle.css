@@ -1,0 +1,303 @@
+body{height: auto important; padding-top:0px;overflow: hidden; }
+h1,h2,h3,h4,h5{font-family:'Berkshire Swash',cursive;}
+.wrapper{overflow: hidden; width: 100%;height: auto;
+    background: url(../Images/light.jpg);padding-bottom: 0px; }
+header{
+    width: 100%;
+    height: 600px;
+    background-image: url(../Images/Hotel.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+}
+.shadow {
+  position: absolute;
+  width: 100%;
+  height: 600px;
+  top: 0;
+  right: 0;
+  background-color: rgba(0,0,0,.35);
+}
+.navbar{margin-top: 15px;z-index: 9999;}
+ .navbar-nav > li > a, .navbar-brand{color: #FFF;  font-family: 'Berkshire Swash',cursive;}
+.navbar-brand{font-size: 30px;line-height: 20px;}
+.navbar-toggle{margin-top: 18px;}
+ .navbar-nav >li >a:hover , .navbar-nav > .active > a, .navbar-nav > .active > a:hover,.navbar-nav > .active > a:focus{color: #DCB000; background: none;}
+.navbar-nav > li > a{
+    padding-bottom: 15px;
+    padding-top: 15px;
+    font-size: 19px;
+}
+.clearfix{clear: both;}
+  /* Start HeaderAbout */
+.headerAbout{
+    width: 62.666667%;
+    margin-top: 130px;
+    font-weight: 700;
+    color: #FFF;
+}
+.headerAbout h2 {font-size: 35px;font-weight: 700;}
+.headerAbout div {margin-bottom: 30px;color: #FFF;margin-top: 25px;}
+.headerAbout p{font-size: 17px;line-height: 28px;margin: 0;}
+.reserve{
+    background-color: rgba(35,50,66,.84);
+    color: #FFF;
+    border-radius: 4px;
+    margin-top: 40px;
+    width: 30.333333%;
+}
+.reserve h3 ,.explore .title h3{color:#DCB000;font-weight: 700 ;font-size: 22px;text-align: center}
+/*  End HeaderAbout */ 
+/* Start Explore Section  */ 
+.explore .container {
+  margin-top: 20px;
+}
+.explore .title h3{font-size: 25px;}
+.explore .title p{text-align: center;margin: auto;font-size: 16px;width: 70%;}
+.explore-one>div, .explore-two>div {position: relative;}
+.hover14 figure {position: relative;margin-bottom: 20px;}
+figure { margin: 0;padding: 0;background: #fff;overflow: hidden;}
+.hover14 figure::before {
+  position: absolute;
+  top: 0;
+  left: -75%;
+  z-index: 2;
+  display: block;
+  content: '';
+  width: 50%;
+  height: 100%;
+  background: -webkit-linear-gradient(left,rgba(255,255,255,0) 0,rgba(255,255,255,.3) 100%);
+  background: -moz-linear-gradient(left,rgba(255,255,255,0) 0,rgba(255,255,255,.3) 100%);
+  background: -o-linear-gradient(left,rgba(255,255,255,0) 0,rgba(255,255,255,.3) 100%);
+  background: linear-gradient(to right,rgba(255,255,255,0) 0,rgba(255,255,255,.3) 100%);
+  -webkit-transform: skewX(-25deg);
+   -moz-transform: skewX(-25deg);
+   -o-transform: skewX(-25deg);    
+  transform: skewX(-25deg);
+}
+:after, :before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.explore-one img {width: 100%;height:310px; border: 1px solid #cecece;}
+.explore-one>div h4, .explore-two>div h4 {
+  position: absolute;
+  bottom: 15px;
+  left: 23px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 21px;
+}
+.explore-two img {
+  width: 100%;
+  height: 200px;
+    border: 1px solid #cecece;}
+/*  End Explore Section */ 
+ /* Start Latest News */   
+.latest.background {
+  background-color: rgba(206,206,206,.31);
+  padding-bottom: 20px;
+  padding-top: 1px;
+  margin-top: 25px;
+} 
+.latest .title {text-align: center;margin-top: 40px;margin-bottom: 30px;}
+.latest .title h3 ,.our-service .title h3 {color: #dcb000;font-weight: 700;font-size: 28px;}
+.latest .title p  ,.our-service .title p{ font-size: 16px;text-align: center;margin: auto;font-weight: 500;margin-bottom: 20px;}
+.well {background-color: rgba(206,206,206,0);border: none;
+      -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0);
+       -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0);
+     -o-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0);
+     box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0); 
+}
+.carousel {
+    margin-bottom: 0;
+    padding: 0 20px 30px 20px;
+}
+.carousel .latest-news h4 a {
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 22px;
+  color: #233242;
+  font-family: 'Open Sans', sans-serif; !important;
+}
+.carousel .latest-news p {
+  font-size: 15px;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+.carousel .latest-news h4 a:hover{color:#DCB000}
+.carousel .latest-news a {
+  color: #dcb000;
+  font-weight: 700;
+text-transform: capitalize    
+}
+.carousel .carousel-indicators .active {background-color: #DCB000;width: 15px;height: 14px;}
+/* The controlsy */
+.carousel-control {
+	left: -12px;
+    height: 40px;
+	width: 40px;
+    background: none repeat scroll 0 0 #222222;
+    border: 4px solid #FFFFFF;
+    border-radius: 23px 23px 23px 23px;
+    margin-top: 90px;
+}
+.carousel-control.right {
+	right: -12px;
+}
+/* The indicators */
+.carousel-indicators {
+	right: 50%;
+	top: auto;
+	bottom: -17px;
+	margin-right: -19px;
+}
+/* The colour of the indicators */
+.carousel-indicators li {
+	background: #cecece;
+}
+.carousel-indicators .active {
+background: #428bca;
+}
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600;);
+.snip1571 {
+  background-color: #000;
+  display: inline-block;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  margin: 10px 7px;
+  max-width: 315px;
+  min-width: 230px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+.snip1571 *,
+.snip1571 *:before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+.snip1571 img {
+  backface-visibility: hidden;
+  max-width: 100%;
+  vertical-align: top;
+}
+.snip1571 figcaption {
+  bottom: 30px;
+  left: 0;
+  position: absolute;
+  z-index: 0;
+}
+.snip1571 figcaption:before {
+  background-color: #ffffff;
+  bottom: -5px;
+  content: '';
+  left: 0;
+  position: absolute;
+  right: 100%;
+  top: -5px;
+  z-index: -1;
+}
+.snip1571 h3 {
+  background-color: #DCB000;
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif; 
+  font-size: 0.9em;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin: 0;
+  padding: 5px 10px;
+  text-transform: uppercase;
+  z-index: 1;
+}
+.snip1571 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+.snip1571:hover > img,
+.snip1571.hover > img {
+  opacity: 0.1;
+}
+.snip1571:hover figcaption:before,
+.snip1571.hover figcaption:before {
+  right: -5px;
+}
+/* Start Latest News */   
+
+/* Start Our-Services */
+.our-service .title-news h4 {color: #DCB000}
+
+/* Start Our-Services */
+
+/* Start Our Footer */
+.footer {background-color: #233242;margin-top: 35px;color: #FFF;padding-top: 25px; }
+.footer h4{font-weight: 700;color:#DCB000;font-size: 20px;}
+.footer li{line-height: 33px;color:#FFF;list-style: none;}
+.footer .fa, .footer a, .footer label {color: #fff!important;font-weight: 700}
+.footer .fa {margin-right: 11px}
+.social-links {padding-top: 7px;}
+.social-links .fa{font-size: 28px;}
+.contact-form {margin-top: 22px;}
+.form-control {
+  border: 1px solid #a5a5a5;
+}
+.copy-right {
+  text-align: center;
+  color: #fff;
+  border-top: 1px solid #777;
+  padding-top: 8px;
+  padding-bottom: 9px;
+  font-size: 12px;
+  text-transform: lowercase;
+}
+/* Start Scroll Up */
+#scroll-top {
+  width: 50px;
+  height: 50px;
+  background-color: #304e6d;
+  border-radius: 50%;
+  text-align: center;
+  position: fixed;
+  right: 15px;
+  bottom: 13px;
+  z-index: 9999;
+  display: none;
+  cursor: pointer;
+}
+#scroll-top:hover{background-color: #444;}
+/* End Scroll up */
+
+
+/* End our Footer */
+/* Start My Work */
+.My-btn {
+    color:#233242;
+    background-color: #DCB000;
+    text-decoration: none !important;
+    padding:  6px 10px;
+    border: 0;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 17px;
+    font-weight: 700;
+    text-transform: capitalize;
+    border-radius: 4px;
+    opacity: 1;
+}
+.My-btn:hover{opacity: 0.8}
+
+/* End My Work */
+.explore-one>div h4, .explore-two>div h4, .header-about h2, .reservation h3, .title h3, footer h4, header .navbar-nav>li>a {
+  font-family: 'Berkshire Swash',cursive;
+}
